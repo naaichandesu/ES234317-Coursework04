@@ -11,7 +11,7 @@ import java.util.*;
 
 public class Main {
 
-    public static void main(String[] args) {
+    /*public static void main(String[] args) {
         Stack<Integer> s = new Stack<Integer>();
         s.push(1);
         s.push(2);
@@ -31,9 +31,7 @@ public class Main {
         System.out.println(q);
         q.add(4);
         System.out.println(q);*/
-    }
-
-
+    
 
         /* 
         l.add(5);
@@ -57,7 +55,7 @@ public class Main {
 
 
 
-    /* 
+    
     public static void main(String[] args) {
         System.out.println("Problem Test Case 1:");
         Integer [] a = {1, 3, 1, 4, 3, 7, -2, 0, 7, -2, -2, 1};
@@ -114,5 +112,5 @@ public class Main {
         //complete your code here
         
         return s;
-    }*/
+    }
 }
