@@ -2,15 +2,62 @@
  * ES234317 - Algorithms and Data Structures
  * Gasal | 2026-2027
  * Coursework   : 04
- * Student ID   : 
- * Full Name    : 
- * Class        : 
+ * Student ID   : 5026251180
+ * Full Name    : Naila Izzati Belladiva
+ * Class        : C
  */
 
 import java.util.*;
 
 public class Main {
 
+    public static void main(String[] args) {
+        Stack<Integer> s = new Stack<Integer>();
+        s.push(1);
+        s.push(2);
+        s.push(3);
+        System.out.println(s);
+        s.pop();
+        System.out.println(s);
+        s.push(4);
+        System.out.println(s);
+        
+        /*Queue<Integer> q = new LinkedList<Integer>();
+        q.add(1);
+        q.add(2);
+        q.add(3);
+        System.out.println(q);
+        q.remove();
+        System.out.println(q);
+        q.add(4);
+        System.out.println(q);*/
+    }
+
+
+
+        /* 
+        l.add(5);
+        l.add(10);
+        l.add(5);
+        l.add(15);
+        System.out.println(l);
+        l.add(1,9); //nambah, tapi nilai yang tadi di geser ke kanan
+        System.out.println(l);
+        System.out.println(l.get(4));
+        l.set(3, 25); //mengganti nilai indeks ke tiga
+        System.out.println(l);
+        //l.remove(2); //menghapus dari index
+        l.remove(new Integer(10));
+        System.out.println(l);
+        */
+
+    
+
+
+
+
+
+    /* 
     public static void main(String[] args) {
         System.out.println("Problem Test Case 1:");
         Integer [] a = {1, 3, 1, 4, 3, 7, -2, 0, 7, -2, -2, 1};
@@ -67,5 +114,5 @@ public class Main {
         //complete your code here
         
         return s;
-    }
+    }*/
 }
